@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Corona Virus Application</string>
+    <string name="covid_19">COVID-19</string>
+    <string name="about_covid">COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019. COVID-19 is now a pandemic affecting many countries globally.</string>
+    <string name="get_started">Get Started</string>
+    <string name="recovered">RECOVERED</string>
+    <string name="deceased">DECEASED</string>
+    <string name="dry_cough">Colds and flu are the most common causes for cough.If its not getting better after few weeks, its time to visit your doctor</string>
+    <string name="confirmed">CONFIRMED</string>
+    <string name="covid_detail">Coronana virus disease (COVID-19) is an infectious disease caused by a newly discovered corona virus.Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.</string>
+    <string name="covid_spread">People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth.\n\n People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.</string>
+</resources>

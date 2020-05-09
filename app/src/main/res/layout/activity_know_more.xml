@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent"
+    tools:context=".KnowMoreActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="5dp"
+        tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is COVID-19 ?"
+                    android:layout_margin="10dp"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/covid_detail"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How does COVID-19 spread ?"
+                    android:layout_margin="10dp"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/covid_spread"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Helpline Numbers and Email id "
+                    android:layout_margin="10dp"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Toll free- 1075 \nCentral Helpline Number- 91-11-23978046 \nHelpline Email id- ncov2019@gov.in"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="15sp"
+                    android:textStyle="normal" />
+                <Button
+                    android:id="@+id/btnLearnMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Learn More"
+                    android:textStyle="bold"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:background="@color/colorDarkBlue"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
